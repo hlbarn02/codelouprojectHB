@@ -1,0 +1,70 @@
+/***Header***/
+.header {
+  width: 100%;
+  height: 80px;
+  border: 1px solid black; }
+
+/**Logo**/
+  .logo {
+    width: 100px;
+    height: 50px;
+    border: 1px solid black;
+    margin-right: 15px;
+    padding-top: 20px; }
+    .logo a {
+      color: green;
+      text-decoration: none;
+      font-size: 45px; }
+
+/**Body-Gallery**/
+body {
+  max-width: 100%; }
+
+
+
+.topcontent1 {
+  width: 1300px;
+  height: 80px;
+  display: flex;
+  margin: 0px;
+  box-sizing: border-box;
+  border: 1px solid black;
+  margin-left: 70px;
+  margin-right: 70px; }
+
+
+.searchbar {
+  width: 350px;
+  height: 50px;
+  border: 1px solid black;
+  padding-top: 20px; }
+  .searchbar input {
+    box-sizing: border-box;
+    float: left;
+    margin: 0px; }
+    .searchbar input.button {
+      width: 100px;
+      height: 35px;
+      border-radius: 0 6px 6px 0;
+      background-color: #51A6C1;
+      color: white;
+      border: none; }
+    .searchbar input.search {
+      width: 250px;
+      height: 35px;
+      border-radius: 6px 0 0 6px;
+      border: none; }
+
+
+
+.linksnsignin {
+  width: 500px;
+  height: 50px;
+  border: 1px solid black;
+  padding-top: 20px; }
+
+/**footer**/
+.footer {
+
+
+}
