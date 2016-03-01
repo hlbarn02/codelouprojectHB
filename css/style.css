@@ -26,22 +26,19 @@
 /**nav**/
 #nav_ul {
   list-style: none;
-  width: 100%;
-  height: 10px;
-  margin-bottom: 50px;
-  margin-left: 161px;
+  
 }
 
 #nav_ul li {
   display: inline-block;
   padding: 10px;
-  margin: 10px 0px 30px 30px;
+  margin: 0 auto;
 }
 
-.nav{
+nav{
   width: 80%;
   margin: 0 auto;
-  display: block;
+  display: inline-block;
 }
 /**Logo**/
   .logo {
@@ -62,15 +59,17 @@ body {
 }
 
 /**Product List**/
-#products {
+.products img {
   list-style: none;
+  display: inline-block;
+
 }
 
 #products li {
   display: inline-block;
   width: 23%;
-
-
+  height: auto;26%;
+}
 
 .body {
   width: 80%;
@@ -78,7 +77,11 @@ body {
   padding: 50px;
 }
 
-
+/**Layout Container**/
+#wrapper {
+  width: 70%;
+  margin: 0,auto;
+}
 
 
 }
