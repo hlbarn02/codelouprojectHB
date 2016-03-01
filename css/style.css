@@ -1,7 +1,8 @@
 /***Header***/
 .header {
   margin-top: 0px;
-
+  background-color: lightgreen;
+  margin: 0,auto;
   }
 /**h1**/
 #title {
@@ -10,23 +11,22 @@
   height: 10%;
   text-align: center;
   margin-top: 0px;
-  margin-bottom: 10px;
+  margin-bottom: 1%;
   background-color: lightgreen;
 }
 /**Title- h2**/
-#title2 {
+#title1 {
   box-sizing: border-box;
   text-align: center;
   margin-top: 0px;
-  padding-left: 64px;
+  padding-left: 1%;
 }
-
 
 
 /**nav**/
 #nav_ul {
   list-style: none;
-  
+
 }
 
 #nav_ul li {
@@ -39,6 +39,7 @@ nav{
   width: 80%;
   margin: 0 auto;
   display: inline-block;
+  text-align: center;
 }
 /**Logo**/
   .logo {
@@ -58,7 +59,8 @@ body {
   height: 100%;
 }
 
-/**Product List**/
+/**Product List-Use media
+query to make products same size**/
 .products img {
   list-style: none;
   display: inline-block;
@@ -84,7 +86,7 @@ body {
 }
 
 
-}
+
 
 
 
