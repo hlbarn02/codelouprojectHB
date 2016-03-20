@@ -1,0 +1,31 @@
+/**nav**/
+.nav_ul {
+  display:flex;
+  flex-direction: row;
+  justify-content:space-around;
+}
+
+
+.nav_ul a{
+  display:flex;
+  flex-wrap:wrap;
+  flex-direction: row;
+  justify-content:space-around;
+}
+
+
+/* =================================
+  Media Queries
+==================================== */
+
+@media (min-width: 769px) {
+  .page-header {
+      display:flex;
+      flex-direction: column;
+      margin-bottom: 0 auto;
+    }
+
+
+@media (min-width: 1025px) {
+
+}

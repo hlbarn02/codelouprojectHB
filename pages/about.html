@@ -1,24 +1,33 @@
 <!DOCTYPE html>
-  <html>
-    <head>
-      <meta_charset="utf-8">
-      <title>Pango Fine Art</title>
-      <link rel="stylesheet" href="css/normalize.css">
-      <link rel="stylesheet" href="css/style.css">
+  <html lang="en">
+   <head>
+     <meta charset="utf-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <meta name="viewport" content="width=device-width, initial-scale=1">
+       <title>Pango Fine Art</title>
+       <link href="../css/normalize.css" rel="stylesheet">
+       <link rel="../stylesheet" href="css/style.css">
+       <link rel="../stylesheet" href="css/flexbox.css">
       <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+      <!-- Bootstrap -->
+      <link href="../css/bootstrap.min.css" rel="stylesheet">
+      <link href="../css/bootstrap-theme.min.css" rel="stylesheet">
+
+     </head>
+
     </head>
     <body>
-      <header>
+      <div class='container'>
+      <header class="page-header">
         <a href= "index.html">
           <h1 id="title">About</h1>
         </a>
-            <ul id="nav_ul">
+            <div class="navbar">
               <li><a href="../index.html"> Home</a></li>
               <li><a href="contact.html"> Contact</a></li>
               <li><a href="shop.html"> Shop</a></li>
               <li><a href="FAQ.html"> FAQ</a></li>
-            </ul>
-          </nav>
+          </div>
           </header>
 
 
@@ -48,9 +57,21 @@
               nec feugiat nisi suscipit vitae. Etiam ullamcorper volutpat velit
               vel scelerisque.</p>
         </section>
-        <footer id="footer">
-          <p> &copy 2016 Hanna Barnhart</p>
-        </footer>
 
-      </body>
+        <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+            <!-- Include all compiled plugins (below), or include individual files as needed -->
+            <script src="../js/bootstrap.min.js"></script>
+            <!--JQuery-->
+            <script src="http://code.jquery.com/jquery-1.12.0.min.js"></script>
+            <script type="text/javascript" src="../js/bootstrap.min.js"></script>
+        </body>
+        <footer id="footer">
+          <div class= col-sm-3>
+          <a target="_blank" title="find us on Facebook" href="http://www.facebook.com/pangofineart/?ref=hl"><img alt="follow me on facebook" src="../images/facebook_30x30.png" border=0></a>
+          <div class="copyright"> &copy 2016 Hanna Barnhart</div>
+        </div>
+        </footer>
+    </div>
+
 </html>
