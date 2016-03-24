@@ -123,10 +123,14 @@ p {
   padding: 20px 20px 0px 20px;
   font-family: serif;
   font-size: 20px;
-
 }
 .closing {
   padding-bottom:20px;
+}
+
+#AboutSection{
+  max-height: : 80%;
+  font-family: serif;
 }
 
 /**Carousel**/
@@ -182,19 +186,21 @@ query to make products same size**/
   width: 100%;
 }
 
-
-html {
-  height: 100%;
+.footerName {
+  margin-top: 0px;
+  padding-top:0px;
 }
 
+/**HTML**/
+html {
+  height: 100%;
 }
 /* =================================
   Media Queries
 ==================================== */
 
 @media (min-width: 769px) {
-	.main-header,
-	.row {
+	.main-header {
 		width: 90%;
 		margin: 0 auto;
 	}

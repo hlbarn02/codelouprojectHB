@@ -14,6 +14,10 @@
 }
 
 /**About Page Image**/
+#AboutSection{
+  display:flex;
+  max-height: : 80%;
+}
 #SelfPortrait {
   display:flex;
   flex-wrap: wrap;
