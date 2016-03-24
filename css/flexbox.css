@@ -13,7 +13,12 @@
   justify-content:space-around;
 }
 
-
+/**About Page Image**/
+#SelfPortrait {
+  display:flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
 /* =================================
   Media Queries
 ==================================== */

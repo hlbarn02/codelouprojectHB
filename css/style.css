@@ -1,45 +1,91 @@
 /***Header***/
 .page-header {
   background-color: lightgreen;
-  margin: 0,auto;
+  margin-bottom: 0px;
+  text-align:center;
+  font-family: serif;
+  max-height: 250px;
   }
-/**h1**/
+
+  header .page-header {
+    background-color: lightgreen;
+    margin: 0,auto;
+    padding: 0,auto;
+    }
+/**Titles**/
 #title {
   box-sizing: border-box;
   width: 100%;
-  height: 10%;
+  height: 40px;
   text-align: center;
-  margin-top: 0px;
-  margin-bottom: 1%;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  margin-bottom: 2%;
+  margin-top: 2%;
   background-color: lightgreen;
+  font-family:serif;
 }
-/**Title- h2**/
+
 #title1 {
   box-sizing: border-box;
   text-align: center;
   margin-top: 0px;
   padding-left: 1%;
 }
-
-/**Banner**/
-
-.image {
-   position: relative;
-   width: 100%; /* for IE 6 */
+/**H1 and H2**/
+.title h1{
+  position: center;
+  padding-bottom:0px;
+  margin-bottom: 0px;
 }
 
 h2 {
-   position: absolute;
-   top: 200px;
    left: 0;
    width: 100%;
+   padding-top: 0px;
+   margin-top: 0px;
+ }
+
+.title1 {
+  box-sizing: border-box;
+  text-align: center;
+  margin-top: 0px;
+  padding-left: 1%;
 }
-.jumbotron .image{
-    position: relative;
+/**Banner**/
+
+/**Logo**/
+  #logo {
+    height: 50%;
+    border-radius:100%;
+    max-width:50%;
+    display: inline-block;
+  }
+
+    img .logo {
+      color: green;
+      text-decoration: none;
+      font-size: 45px;
+      border-radius:75px;
+      display: inline-block;
+    }
+
+img.img-responsive {
+   position: center;
+   width: 150px;
+   max-height: 150px%;
+   padding-top: 2%;
+   padding-bottom: 2%;
+  }  /* for IE 6 */
+
+
+.jumbotron {
+    position: left;
     width: 100%;
     height: 100%;
     background-size: cover;
     overflow: hidden;
+    background-repeat: no-repeat;
 }
 
 
@@ -50,90 +96,83 @@ h2 {
 .navbar {
   list-style: none;
   display:inline-block;
+  position: center;
 }
 
 navbar navbar-default navbar-fixed-top li a{
   list-style: none;
+  position:center;
 }
 
 .nav li a {
   display: inline-block;
   padding: 10px;
   margin: 0 auto;
+  list-style: none;
 }
-
-/**Logo**/
-  .logo {
-    width: 100px;
-    height: 50px;
-    margin-right: 15px;
-    padding-top: 20px; }
-    .logo a {
-      color: green;
-      text-decoration: none;
-      font-size: 45px; }
 
 /**Body-Gallery**/
 body {
-  padding-top: 70px;
+  padding-top: 50px;
   padding-bottom: 20px;
   position: relative;
 }
 
+/**Paragraphs**/
+p {
+  padding: 20px 20px 0px 20px;
+  font-family: serif;
+  font-size: 20px;
+
+}
+.closing {
+  padding-bottom:20px;
+}
+
+/**Carousel**/
+/**.carousel,**/
+.carousel-inner  .item  img,
+.carousel-inner .item  a  img {
+  max-width: 100%;
+  margin-left:20px;
+  margin-right: 20px;
+}
+image carousel .carousel-slide,
+#image carousel {
+  display: center;
+  max-width: 100%;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  height:600px;
+}
+.item {
+  margin-left:30px;
+  max-width: 100%;
+}
 /**Product List-Use media
 query to make products same size**/
 .products img {
   list-style: none;
   display: inline-block;
-
 }
-
-.row{
-
-
-}
-
 
 /**Layout Container**/
 .container {
-  width: 1000px;
+  width: 90%;
   margin: 0,auto;
 }
 
-
-.searchbar {
-  width: 350px;
-  height: 50px;
-  border: 1px solid black;
-  padding-top: 20px; }
-  .searchbar input {
-    box-sizing: border-box;
-    float: left;
-    margin: 0px; }
-    .searchbar input.button {
-      width: 100px;
-      height: 35px;
-      border-radius: 0 6px 6px 0;
-      background-color: #51A6C1;
-      color: white;
-      border: none; }
-    .searchbar input.search {
-      width: 250px;
-      height: 35px;
-      border-radius: 6px 0 0 6px;
-      border: none; }
-
-
-
-
 /**footer**/
 #footer {
-  height: 20px;
-  padding: 20px auto;
+  height: 10%;
+  padding: 1%;
   background-color: gray;
   text-align: center;
   margin-bottom: 0;
   width: 100%;
+}
+#footer a {
+  text-align: left;
 }
 
 #copyright {
@@ -170,3 +209,41 @@ html {
 		max-width: 1150px;
 	}
 }
+/* Smaller than standard 960 (devices and browsers) */
+@media only screen and (max-width: 959px) {
+  /**Carousel**/
+  .carousel,
+  .carousel-inner > .item > img,
+  .carousel-inner > .item > a > img {
+    max-height: 20%;
+    max-width: 100%;
+  }
+}
+/* Tablet Portrait size to standard 960 (devices and browsers) */
+@media only screen and (min-width: 768px) and (max-width: 959px)
+  @media (min-width: 769px) {
+  	.main-header,
+  	.row {
+  		width: 90%;
+  		margin: 0 auto;
+  	}
+  	.tagline {
+  		font-size: 1.4em;
+  	}
+  }
+/* All Mobile Sizes (devices and browser) */
+@media only screen and (max-width: 767px) {
+    /**Carousel**/
+    carousel,
+    .carousel-inner > .item > img,
+    .carousel-inner > .item > a > img {
+      max-height: 20%;
+      max-width: 100%;
+    }
+}
+
+/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
+@media only screen and (min-width: 480px) and (max-width: 767px) {}
+
+/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+@media only screen and (max-width: 479px) {}
