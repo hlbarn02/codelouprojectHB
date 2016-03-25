@@ -69,15 +69,24 @@ h2 {
       border-radius:75px;
       display: inline-block;
     }
-
+/* Images */
 img.img-responsive {
    position: center;
    width: 150px;
-   max-height: 150px%;
+   max-height: 150px;
    padding-top: 2%;
    padding-bottom: 2%;
   }  /* for IE 6 */
 
+#earrings {
+  margin-left: 15%;
+  max-height: 40%;
+  max-width: 90%;
+}
+#earrings .col-sm-4 {
+  max-height: 40%;
+  max-width: 90%;
+}
 
 .jumbotron {
     position: left;
@@ -164,7 +173,7 @@ query to make products same size**/
   display: inline-block;
   margin-left: 40%;
   max-width: 500px;
-  max-height: 400px%;
+  max-height: 400px;
 }
 
 /**Layout Container**/
