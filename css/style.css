@@ -160,11 +160,20 @@ query to make products same size**/
   display: inline-block;
 }
 
+#ring_img img.img-responsive {
+  display: inline-block;
+  margin-left: 40%;
+  max-width: 500px;
+  max-height: 400px%;
+}
+
 /**Layout Container**/
 .container {
   width: 90%;
   margin: 0,auto;
 }
+
+
 
 /**footer**/
 #footer {

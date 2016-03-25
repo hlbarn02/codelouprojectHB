@@ -11,6 +11,10 @@
        <link rel="stylesheet" href="../css/normalize.css">
        <link rel="stylesheet" href="../css/style.css">
        <link rel="stylesheet" href="../css/flexbox.css">
+       <link rel="stylesheet" href="../css/flicker.css">
+       <!--FlickerAPI-->
+       <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+         <script src="../js/flicker.js"></script>
        <!-- FONT
        –––––––––––––––––––––––––––––––––––––––––––––––––– -->
        <link href='https://fonts.googleapis.com/css?family=Muli' rel='stylesheet' type='text/css'>
@@ -21,7 +25,6 @@
       <link href="../css/bootstrap.min.css" rel="stylesheet">
       <link href="../css/bootstrap-theme.min.css" rel="stylesheet">
    </head>
-
           <!-- Banner-Top -->
   <header class="page-header">
       <h1>RINGS</h1>
@@ -52,73 +55,29 @@
                   </div>
                   <!-- End navbar -->
       <body>
-      <div class="container-fluid">
-        <div class="row">
-        <div class="col-sm-3">
-          <li>
-            <img src="../Images/BlueCrystalWood.jpg" class="img-responsive" alt="Blue Crystal Earrings" />
-            <h3>Blue Crystal Silver Earrings</h3>
-            <p>Silver wire wrapped blue crystal earrings with yellow and light green Swarkoski crystals. Nickle Free earrings.</p>
-            <span>$27.95</span>
-          </li>
-        </div>
-        <div class="col-sm-3">
-          <li>
-            <img src="../Images/CBGWood.jpg" class="img-responsive" alt="Carnelian Brown Gold Earrings" />
-            <h3>Orange-Red Carnelian Silver Tigers Eye Earrings</h3>
-            <p>Rich orange-red carnelian stones with tigers eye and silver wire.</p>
-            <span>$27.95</span>
-          </li>
-        </div>
-        <div class="col-sm-3">
-          <li>
-            <img src="../Images/HoopsJadeSilverTurquoiseBudVase.jpg" class="img-responsive" alt="Silver Turqouise and Jade Hoop Earrings" />
-            <h3>Silver Turquoise and Jade Hoop Earrings</h3>
-            <p>Turqouise and jade stones on silver wire. Nickle free.</p>
-            <span>$32.95</span>
-          </li>
-        </div>
-        <div class="col-sm-3">
-          <li>
-            <img src="../Images/JadeSilverCrystalsBlueVase.jpg" class="img-responsive" alt="Blue Crystal Earrings" />
-            <h3>Jade Crystal Earrrings</h3>
-            <p>Silver Jade and Crystal Earrings</p>
-            <span>$29.95</span>
-          </li>
-        </div>
-        <div class="col-sm-3">
-          <li>
-            <img src="../Images/TealLeatherGreenShellEarrings1.jpg" class="img-responsive" alt="Teal Leather Earrings with Shells" />
-            <h3>Name of product</h3>
-            <p>Short description</p>
-            <span>$25.95</span>
-          </li>
-        </div>
-        <div class="col-sm-4">
-          <li>
-            <img src="#" class="img-responsive" alt="" />
-            <h3>Name of product</h3>
-            <p>Short description</p>
-            <span>$25.95</span>
-          </li>
-        </div>
-        <div class="col-sm-4">
-          <li>
-            <img src="#"class="img-responsive" alt="" />
-            <h3>Name of product</h3>
-            <p>Short description</p>
-            <span>$25.95</span>
-          </li>
+        <div id="ring_img">
+      <img src="../Images/TurquoiseRingWood2.jpg" class="img-responsive" alt="Turquoise Ring" />
+      </div>
+    <div class="grid-container centered">
+      <div class="grid-100">
+        <div class="contained">
+          <div class="grid-100">
+            <div class="heading">
+            </div>
+            <ul class="filter-select">
+              <li><button>Rings</button></li>
+                </ul>
+          </div>
+          <div id="photos">
+          </div>
         </div>
       </div>
     </div>
-</div>
-<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.16/angular.js"></script>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.16/angular.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="../js/bootstrap.min.js"></script>
-    <!--JQuery-->
     <script src="http://code.jquery.com/jquery-1.12.0.min.js"></script>
     <script type="text/javascript" src="../js/bootstrap.min.js"></script>
     <script src="../js/app.js"></script>
